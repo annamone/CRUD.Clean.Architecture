@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AB19D71-10FC-4DF5-A607-DB2A002C6BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{4EB2E3B4-E993-444C-8247-266DE2D5D538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EE27039E-CA2B-4E65-84E6-70914B121BCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0253868A-8E06-488F-AB63-7D4EEC4B313A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredoTasks.CRUD.Application", "CredoTasks.CRUD.Application\CredoTasks.CRUD.Application.csproj", "{D35AE966-8545-4373-B0FF-B1A6DAFE3426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredoTasks.CRUD.Domain", "CredoTasks.CRUD.Domain\CredoTasks.CRUD.Domain.csproj", "{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredoTasks.CRUD.Infrastructure", "CredoTasks.CRUD.Infrastructure\CredoTasks.CRUD.Infrastructure.csproj", "{D1EFEB0E-FA41-45B1-A182-4C5726F300F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredoTasks.CRUD.Api", "CredoTasks.CRUD.Api\CredoTasks.CRUD.Api.csproj", "{93C5915B-1590-47F8-A966-63DD382BE7CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35AE966-8545-4373-B0FF-B1A6DAFE3426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35AE966-8545-4373-B0FF-B1A6DAFE3426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35AE966-8545-4373-B0FF-B1A6DAFE3426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35AE966-8545-4373-B0FF-B1A6DAFE3426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EFEB0E-FA41-45B1-A182-4C5726F300F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EFEB0E-FA41-45B1-A182-4C5726F300F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EFEB0E-FA41-45B1-A182-4C5726F300F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EFEB0E-FA41-45B1-A182-4C5726F300F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C5915B-1590-47F8-A966-63DD382BE7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C5915B-1590-47F8-A966-63DD382BE7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C5915B-1590-47F8-A966-63DD382BE7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C5915B-1590-47F8-A966-63DD382BE7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EB2E3B4-E993-444C-8247-266DE2D5D538} = {0AB19D71-10FC-4DF5-A607-DB2A002C6BB8}
+		{EE27039E-CA2B-4E65-84E6-70914B121BCE} = {0AB19D71-10FC-4DF5-A607-DB2A002C6BB8}
+		{0253868A-8E06-488F-AB63-7D4EEC4B313A} = {0AB19D71-10FC-4DF5-A607-DB2A002C6BB8}
+		{D35AE966-8545-4373-B0FF-B1A6DAFE3426} = {EE27039E-CA2B-4E65-84E6-70914B121BCE}
+		{808B2B63-3B6F-47A8-ABAC-93D7F51D0A7A} = {EE27039E-CA2B-4E65-84E6-70914B121BCE}
+		{D1EFEB0E-FA41-45B1-A182-4C5726F300F5} = {0253868A-8E06-488F-AB63-7D4EEC4B313A}
+		{93C5915B-1590-47F8-A966-63DD382BE7CB} = {4EB2E3B4-E993-444C-8247-266DE2D5D538}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C54BEA-5B96-42EC-AFA4-E3B31C94CDDB}
+	EndGlobalSection
+EndGlobal
